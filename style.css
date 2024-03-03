@@ -37,18 +37,6 @@ header .navigation {
   position: relative;
 }
 
-/*header .navigation.active{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background:rgba(1, 1, 1, 0.5);
-}*/
-
 header .navigation .navigation-items a {
   position: relative;
   color: #ffffff;
@@ -58,19 +46,6 @@ header .navigation .navigation-items a {
   margin-left: 30px;
   transition: 0.3s ease;
 }
-
-/*header .navigation.active .navigation-items{
-    background: #fff;
-    width: 600px;
-    max-width: 600px;
-    margin: 20px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 0 5px 25px rgba(74, 74, 74, 0.2);
-}*/
 
 header .navigation .navigation-items a:before {
   content: "";
@@ -227,12 +202,12 @@ section {
 }
 
 .wadah .slide-button#prev-slide {
-  left: -25px;
+  left: 5px;
   display: none;
 }
 
 .wadah .slide-button#next-slide {
-  right: -25px;
+  right: 5px;
 }
 
 .wadah .image-list {
@@ -267,7 +242,7 @@ section {
   top: 0;
   left: 0;
   z-index: 100;
-  background: #0bb4f2;
+  background: #fcfcfcd2;
   height: 100%;
   width: 100%;
   display: none;
@@ -275,11 +250,11 @@ section {
 
 .wadah .popup-image span {
   position: absolute;
-  top: 0;
+  top: 40px;
   right: 10px;
   font-size: 60px;
   font-weight: bolder;
-  color: #ffffff;
+  color: #1fe1f6;
   cursor: pointer;
   z-index: 100;
 }
@@ -713,8 +688,18 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
+
+.aw h2{
+  padding: 50px 100px;
+  color: #1ec3cb;
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+}
+
 .xxx {
   width: 90%;
   max-width: 600px;
@@ -847,7 +832,7 @@ select {
 
 .kolab h2 {
   padding: 50px 100px;
-  color: #060606;
+  color: #1ec3cb;
   font-family: "Nunito", sans-serif;
   font-weight: normal;
   font-size: 30px;
